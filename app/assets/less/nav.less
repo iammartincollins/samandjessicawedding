@@ -1,0 +1,31 @@
+#header {
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    z-index: 9;
+    text-align: center;
+    padding: 0;
+    top: 0;
+}
+
+
+#menu {
+    margin: 0;
+    li {
+        display: inline-block;
+        margin: 10px;
+
+        a {
+            display: inline-block;
+            color: #FFF;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        &.active a span {
+            border-bottom: 2px solid #fff;
+            padding-bottom: 5px;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sam & Jessica's Wedding</title>
+
+
+    <link rel="stylesheet" type="text/css" href="public/vendor/fullpage.js/jquery.fullPage.css"/>
+    <link rel="stylesheet" type="text/css" href="public/css/site.css"/>
+</head>
+<body>
+
+<div id="header">
+    <ul id="menu">
+        <li data-menuanchor="weddingPage"><a href="#weddingPage"><span>The Wedding</span></a></li>
+        <li data-menuanchor="couplePage"><a href="#couplePage"><span>The Couple</span></a></li>
+        <li data-menuanchor="rsvpPage"><a href="#rsvpPage"><span>RSVP</span></a></li>
+        <li data-menuanchor="accommodationPage"><a href="#accommodationPage"><span>Accommodation</span></a></li>
+        <li data-menuanchor="giftsPage"><a href="#giftsPage"><span>Gifts</span></a></li>
+    </ul>
+</div>
+
+
+<div id="page-wrapper">
+    <div class="section">
+        <h1 class="details-names">Sam & Jessica</h1>
+        <h2 class="details-date">August 13<sup>th</sup> 2016</h2>
+        <h3 class="details-location">Lilleshall National Sports & Conferencing Centre</h3>
+    </div>
+    <div class="section">
+        <h1>The Happy Couple</h1>
+    </div>
+    <div class="section">
+        <h1>RSVP</h1>
+        <h3>We can't wait to hear from you, so head on over to <a href="">our RSVP form</a> and let us know!</h3>
+    </div>
+    <div class="section">
+        <h1>Accommodation</h1>
+    </div>
+    <div class="section">
+        <h1>Gifts</h1>
+    </div>
+</div>
+
+<script type="text/javascript" src="public/vendor/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="public/vendor/fullpage.js/jquery.fullPage.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#page-wrapper').fullpage({
+            anchors: ['weddingPage', 'couplePage', 'rsvpPage', 'accommodationPage', 'giftsPage'],
+            sectionsColor: ['#550f9d', '#550f9d', '#550f9d', '#550f9d', '#550f9d'],
+            menu: '#menu'
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "SamAndJessicaWedding",
+  "version": "0.0.1",
+  "authors": [
+    "hellofromhell <hellofromhell@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": "true",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fullpage.js": "~2.7.8"
+  }
+}
