@@ -255,3 +255,7 @@ body {
 .details-location {
   margin-top: 0;
 }
+#map-hero {
+  height: 240px;
+  margin-top: 20px;
+}

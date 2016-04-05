@@ -14,6 +14,7 @@
     <ul id="menu">
         <li data-menuanchor="weddingPage"><a href="#weddingPage"><span>The Wedding</span></a></li>
         <li data-menuanchor="couplePage"><a href="#couplePage"><span>The Couple</span></a></li>
+        <li data-menuanchor="venuePage"><a href="#venuePage"><span>The Venue</span></a></li>
         <li data-menuanchor="rsvpPage"><a href="#rsvpPage"><span>RSVP</span></a></li>
         <li data-menuanchor="accommodationPage"><a href="#accommodationPage"><span>Accommodation</span></a></li>
         <li data-menuanchor="travelPage"><a href="#travelPage"><span>Travel</span></a></li>
@@ -33,8 +34,14 @@
         <p>You will already know lots about the happy couple so here are a few photos to keep you entertained.</p>
     </div>
     <div class="section">
+        <h1>The Venue</h1>
+        <p>The wedding will take place at the beautiful <a href="http://www.lilleshallnsc.co.uk/" target="_blank">Lilleshall National Sports & Conferencing Centre</a>.</p>
+        <address>Lilleshall, Newport, Shropshire TF10 9AT, UK</address>
+        <div id="map-hero"></div>
+    </div>
+    <div class="section">
         <h1>RSVP</h1>
-        <p>We can't wait to hear from you, so head on over to <a target="_blank" href="https://docs.google.com/forms/d/10DavfoH2_az1e3OcEPZyFfcgjrRGMYHW6QbnJR6NmNE/viewform">our RSVP form</a> and let us know!</p>
+        <p>We can't wait to hear from you, so head on over to <a target="_blank" href="https://docs.google.com/forms/d/10DavfoH2_az1e3OcEPZyFfcgjrRGMYHW6QbnJR6NmNE/viewform">our RSVP form</a> and let us know your plans!</p>
     </div>
     <div class="section">
         <h1>Accommodation</h1>
@@ -57,11 +64,13 @@
 
 <script type="text/javascript" src="public/vendor/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="public/vendor/fullpage.js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="public/js/site.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9FyqHNLatPwdbRbLTSy1sL9XV8DBtFQI&callback=initMap"></script>
 <script>
     $(document).ready(function () {
         $('#page-wrapper').fullpage({
-            anchors: ['weddingPage', 'couplePage', 'rsvpPage', 'accommodationPage', 'travelPage', 'giftsPage'],
-            sectionsColor: ['#50156F', '#50156F', '#50156F', '#50156F', '#50156F', '#50156F'],
+            anchors: ['weddingPage', 'couplePage', 'venuePage', 'rsvpPage', 'accommodationPage', 'travelPage', 'giftsPage'],
+            sectionsColor: ['#50156F', '#50156F', '#50156F', '#50156F', '#50156F', '#50156F', '#50156F'],
             menu: '#menu'
         });
     });
