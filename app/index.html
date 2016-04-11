@@ -14,52 +14,87 @@
     <ul id="menu">
         <li data-menuanchor="weddingPage"><a href="#weddingPage"><span>The Wedding</span></a></li>
         <li data-menuanchor="couplePage"><a href="#couplePage"><span>The Couple</span></a></li>
-        <li data-menuanchor="venuePage"><a href="#venuePage"><span>The Venue</span></a></li>
+        <li data-menuanchor="foodPage"><a href="#foodPage"><span>Food</span></a></li>
         <li data-menuanchor="rsvpPage"><a href="#rsvpPage"><span>RSVP</span></a></li>
         <li data-menuanchor="accommodationPage"><a href="#accommodationPage"><span>Accommodation</span></a></li>
-        <li data-menuanchor="travelPage"><a href="#travelPage"><span>Travel</span></a></li>
+        <li data-menuanchor="travelPage"><a href="#travelPage"><span>Getting There</span></a></li>
         <li data-menuanchor="giftsPage"><a href="#giftsPage"><span>Gifts</span></a></li>
     </ul>
 </div>
 
 
 <div id="page-wrapper">
+
     <div class="section">
         <h1 class="details-names">Sam & Jessica</h1>
+
         <h2 class="details-date">August 13<sup>th</sup> 2016</h2>
+
         <h3 class="details-location">Lilleshall National Sports & Conferencing Centre</h3>
     </div>
+
     <div class="section">
         <h1>The Happy Couple</h1>
+
         <p>You will already know lots about the happy couple so here are a few photos to keep you entertained.</p>
     </div>
+
     <div class="section">
-        <h1>The Venue</h1>
-        <p>The wedding will take place at the beautiful <a href="http://www.lilleshallnsc.co.uk/" target="_blank">Lilleshall National Sports & Conferencing Centre</a>.</p>
-        <address>Lilleshall, Newport, Shropshire TF10 9AT, UK</address>
-        <div id="map-hero"></div>
+        <h1>Food</h1>
+
+        <p>-</p>
     </div>
+
     <div class="section">
         <h1>RSVP</h1>
-        <p>We can't wait to hear from you, so head on over to <a target="_blank" href="https://docs.google.com/forms/d/10DavfoH2_az1e3OcEPZyFfcgjrRGMYHW6QbnJR6NmNE/viewform">our RSVP form</a> and let us know your plans!</p>
+
+        <p>We can't wait to hear from you, so head on over to <a target="_blank"
+                                                                 href="https://docs.google.com/forms/d/10DavfoH2_az1e3OcEPZyFfcgjrRGMYHW6QbnJR6NmNE/viewform">our
+            RSVP form</a> and let us know your plans!</p>
     </div>
+
     <div class="section">
         <h1>Accommodation</h1>
-        <p>There are rooms available at the venue for wedding guests, first come first serve (so be quick!). You can get in touch by calling 01952 603003, remember to say you’re <em>with the wedding</em>. A later breakfast is served for the wedding guests.</p>
-    </div>
-    <div class="section">
-        <h1>Travel</h1>
-        <p>For those wanting a drink or five, here's a few taxi firms you can use:</p>
+
+        <p>There are rooms available at the venue for wedding guests, first come first serve (so be quick!). You can get
+            in touch by calling 01952 603003, remember to say you’re <em>with the wedding</em>. A later breakfast is
+            served for the wedding guests.</p>
+
+        <p>Other accommodation available:</p>
         <ul class="list-unstyled">
-            <li>Ultimate Taxis - 01952 813636</li>
-            <li>Diamond Taxis - 01952 222222</li>
-            <li>Go Carz - 01952 501050</li>
+            <li>Hotel 1</li>
+            <li>Hotel 2</li>
+            <li>Hotel 3</li>
         </ul>
     </div>
+
+    <div class="section">
+        <h1>Getting There</h1>
+
+        <div class="address-blurb">
+            <p>The wedding will take place at the beautiful <a href="http://www.lilleshallnsc.co.uk/" target="_blank">Lilleshall
+                National Sports & Conferencing Centre</a>.</p>
+            <p><address>Lilleshall, Newport, Shropshire TF10 9AT, UK</address></p>
+            <p>Parking available at the venue or for those wanting a drink or five:</p>
+            <ul class="list-unstyled">
+                <li>Ultimate Taxis - 01952 813636</li>
+                <li>Diamond Taxis - 01952 222222</li>
+                <li>Go Carz - 01952 501050</li>
+            </ul>
+            <p>Bar closes at 12:30.</p>
+        </div>
+
+        <div id="map-hero"></div>
+    </div>
+
     <div class="section">
         <h1>Gifts</h1>
-        <p>While your company alone is all we request (we’ll be over the moon if you can make it), if you would like to give a gift we would really appreciate contributions to our extension fund. (We’ve already got the essentials and could just do with a bit more space… for more ‘essentials’)</p>
+
+        <p>While your company alone is all we request (we’ll be over the moon if you can make it), if you would like to
+            give a gift we would really appreciate contributions to our extension fund. (We’ve already got the
+            essentials and could just do with a bit more space… for more ‘essentials’)</p>
     </div>
+
 </div>
 
 <script type="text/javascript" src="public/vendor/jquery/dist/jquery.min.js"></script>
@@ -69,7 +104,7 @@
 <script>
     $(document).ready(function () {
         $('#page-wrapper').fullpage({
-            anchors: ['weddingPage', 'couplePage', 'venuePage', 'rsvpPage', 'accommodationPage', 'travelPage', 'giftsPage'],
+            anchors: ['weddingPage', 'couplePage', 'foodPage', 'rsvpPage', 'accommodationPage', 'travelPage', 'giftsPage'],
             sectionsColor: ['#50156F', '#50156F', '#50156F', '#50156F', '#50156F', '#50156F', '#50156F'],
             menu: '#menu'
         });

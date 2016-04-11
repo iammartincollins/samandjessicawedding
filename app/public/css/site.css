@@ -183,6 +183,7 @@ th {
 }
 h1 {
   font-size: 4em;
+  margin-bottom: 20px;
 }
 h2 {
   font-size: 2.75em;
@@ -203,6 +204,14 @@ a {
   color: #ebe969;
   text-decoration: none;
   font-weight: bold;
+}
+::selection {
+  background: #8ccfeb;
+  /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #8ccfeb;
+  /* Gecko Browsers */
 }
 body {
   font-family: 'Roboto', serif;
@@ -256,7 +265,19 @@ body {
 .details-location {
   margin-top: 0;
 }
+.address-blurb {
+  width: 50%;
+  float: left;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.address-blurb p {
+  margin-top: 0;
+}
 #map-hero {
+  float: right;
+  width: 50%;
   height: 240px;
-  margin-top: 20px;
 }

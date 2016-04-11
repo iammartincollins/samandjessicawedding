@@ -1,5 +1,12 @@
 @import (reference) 'variables';
 
+::selection {
+    background: @color-tertiary; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: @color-tertiary; /* Gecko Browsers */
+}
+
 body {
     font-family: 'Roboto', serif;
     color: #fff;
