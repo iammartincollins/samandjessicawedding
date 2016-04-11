@@ -265,7 +265,7 @@ body {
 .details-location {
   margin-top: 0;
 }
-.address-blurb {
+.travel-text-area {
   width: 50%;
   float: left;
   padding-right: 20px;
@@ -273,11 +273,21 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.address-blurb p {
+.travel-text-area p {
   margin-top: 0;
 }
-#map-hero {
+.map-area {
   float: right;
   width: 50%;
+}
+#map-hero {
   height: 240px;
+}
+.food-table td {
+  font-size: .9em;
+  vertical-align: top;
+}
+.food-table td,
+.food-table th {
+  padding: 5px 10px;
 }
