@@ -296,3 +296,6 @@ body {
 .food-table th {
   padding: 5px 10px;
 }
+.fancybox-hide {
+  display: none;
+}
