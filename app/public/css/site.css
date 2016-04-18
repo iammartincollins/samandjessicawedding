@@ -203,7 +203,7 @@ h4 {
 }
 body {
   letter-spacing: .035em;
-  line-height: 1.45;
+  line-height: 1.25;
 }
 a {
   color: #ebe969;
@@ -221,7 +221,7 @@ a {
 body {
   font-family: 'Roboto', serif;
   color: #fff;
-  font-size: 20px;
+  font-size: 125%;
   background: #50156F;
 }
 .list-unstyled {
