@@ -224,6 +224,25 @@ body {
   font-size: 125%;
   background: #50156F;
 }
+.lights {
+  z-index: 1000;
+  position: fixed;
+  top: -2px;
+  left: -2px;
+}
+.lights-two {
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  -webkit-transform: scaleX(-1) rotate(10deg);
+  -moz-transform: scaleX(-1) rotate(10deg);
+  -ms-transform: scaleX(-1) rotate(10deg);
+  -o-transform: scaleX(-1) rotate(10deg);
+  transform: scaleX(-1) rotate(10deg);
+  z-index: 1000;
+  position: fixed;
+  top: -30px;
+  right: -10px;
+}
 .list-unstyled {
   list-style: none;
   padding-left: 0;
@@ -233,13 +252,15 @@ body {
   height: 50px;
   display: block;
   width: 100%;
-  z-index: 9;
+  z-index: 2000;
   text-align: center;
   padding: 0;
   top: 0;
 }
 #menu {
   margin: 0;
+  z-index: 2000;
+  background: rgba(80, 21, 111, 0.7);
 }
 #menu li {
   display: inline-block;

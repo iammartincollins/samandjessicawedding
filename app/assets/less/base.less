@@ -3,6 +3,7 @@
 ::selection {
     background: @color-tertiary; /* WebKit/Blink Browsers */
 }
+
 ::-moz-selection {
     background: @color-tertiary; /* Gecko Browsers */
 }
@@ -12,4 +13,28 @@ body {
     color: #fff;
     font-size: 125%;
     background: @color-primary;
+}
+
+.lights {
+    z-index: 1000;
+    position: fixed;
+    top: -2px;
+    left: -2px;
+}
+
+.lights-two {
+    @rotation: 10deg;
+    filter: FlipH;
+    -ms-filter: "FlipH";
+
+    -webkit-transform: scaleX(-1) rotate(@rotation);
+    -moz-transform: scaleX(-1) rotate(@rotation);
+    -ms-transform: scaleX(-1) rotate(@rotation);
+    -o-transform: scaleX(-1) rotate(@rotation);
+    transform: scaleX(-1) rotate(@rotation);
+
+    z-index: 1000;
+    position: fixed;
+    top: -30px;
+    right: -10px;
 }
